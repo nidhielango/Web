@@ -10,9 +10,6 @@ function Header() {
             <div className="menu"></div>
             <ul className="menu-items">
                 <li>
-                    <Link to="/" className='Link'>Home</Link>
-                </li>
-                <li>
                     <Link to="/about" className='Link'>About</Link>
                 </li>
                 <li>
