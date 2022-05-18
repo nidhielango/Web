@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../Header/Header';
 import './About.css';
 
 function About() {
   return (
-    <div>About</div>
+    <div><Header /></div>
   )
 }
 

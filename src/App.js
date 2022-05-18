@@ -8,23 +8,31 @@ import Contact from './Contact/Contact';
 function App() {
   return (
     <div>
+     <Router>
     <div className="background"></div>
     <div className="App">
       <Switch>
         <Route path="/" exact>
           <Home />
         </Route>
+      </Switch>
+      <Switch>
         <Route path="/about" exact>
           <About />
         </Route>
+      </Switch> 
+      <Switch>
         <Route path="/project" exact>
           <Project />
         </Route>
+        </Switch> 
+        <Switch>
         <Route path="/contact" exact>
           <Contact />
         </Route>
       </Switch>
     </div>
+    </Router> 
     </div>
   );
 }

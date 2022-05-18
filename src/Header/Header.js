@@ -10,16 +10,16 @@ function Header() {
             <div className="menu"></div>
             <ul className="menu-items">
                 <li>
-                    <Link className='Link'>Home</Link>
+                    <Link to="/" className='Link'>Home</Link>
                 </li>
                 <li>
-                    <Link className='Link'>About</Link>
+                    <Link to="/about" className='Link'>About</Link>
                 </li>
                 <li>
-                    <Link className='Link'>Projects</Link>
+                    <Link to="/project" className='Link'>Projects</Link>
                 </li>
                 <li>
-                    <Link className='Link'>Contact</Link>
+                    <Link to="/contact" className='Link'>Contact</Link>
                 </li>
             </ul>
         </header>
