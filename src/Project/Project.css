@@ -10,10 +10,15 @@
 
 .projects h1{
     font-family: 'Libre Baskerville';
-    font-size: 220px;
+    font-size: 100px;
     font-weight: lighter;
     line-height: 80%;
     text-transform: capitalize;
+}
+
+.project a{
+    color: rgb(60, 20, 20);
+    text-decoration: none;
 }
 
 .project-container{
@@ -45,3 +50,65 @@
     font-weight: 500;
     font-family: 'Inter';
 }
+
+.project-header p{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Inter';
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.project-image{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(60, 20, 20);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.project-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 10px 0px;
+}
+
+.project-footer p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter';
+    text-transform: uppercase;
+}
+.project-footer img{
+    width: 12px;
+    margin-right: 5px;
+    transform: rotate(270deg);
+}
+
+/*
+.image1{
+ background-image: url(../Assets/project1.jpg);   
+}
+.image2{
+ background-image: url(../Assets/project2.jpg);   
+}
+.image3{
+ background-image: url(../Assets/project3.jpg);   
+}
+.image4{
+ background-image: url(../Assets/project4.jpg);   
+}
+.image5{
+ background-image: url(../Assets/project5.jpg);   
+}
+.image6{
+ background-image: url(../Assets/project6.jpg);   
+}
+*/

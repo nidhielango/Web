@@ -18,40 +18,13 @@ function Project() {
                 <p>1</p>
               </div>
               <a href="/">
-                <div className='project-text'>
-                  <p>Description...</p>
-                  <img src={link} alt="" />
+                <div className='project-header'>
+                  <p>Title</p>
                 </div>
-              </a>
-            </div>
-            <div className="item">
-              <div className='project-number'>
-                <p>2</p>
-              </div>
-              <a href="/">
-                <div className='project-text'>
-                  <p>Description...</p>
-                  <img src={link} alt="" />
+                <div className='project-image image1'>
+                  
                 </div>
-              </a>
-            </div>
-            <div className="item">
-              <div className='project-number'>
-                <p>1</p>
-              </div>
-              <a href="/">
-                <div className='project-text'>
-                  <p>Description...</p>
-                  <img src={link} alt="" />
-                </div>
-              </a>
-            </div>
-            <div className="item">
-              <div className='project-number'>
-                <p>1</p>
-              </div>
-              <a href="/">
-                <div className='project-text'>
+                <div className='project-footer'>
                   <p>Description...</p>
                   <img src={link} alt="" />
                 </div>
