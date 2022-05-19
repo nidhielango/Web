@@ -1,0 +1,47 @@
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 50vh;
+    border-bottom: 1px dashed black;
+}
+
+.projects h1{
+    font-family: 'Libre Baskerville';
+    font-size: 220px;
+    font-weight: lighter;
+    line-height: 80%;
+    text-transform: capitalize;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.project-items{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.project-item{
+    padding: 100px;
+    width: 400px;
+    transition: transform .6s cubic-bezier(.16,1,.3,1);
+}
+.project-item:hover{
+    transform: scale(1.1);
+}
+.project-number p{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
