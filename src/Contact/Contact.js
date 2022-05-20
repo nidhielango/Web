@@ -1,11 +1,21 @@
 import React from 'react';
 import Header from '../Header/Header';
 import './Contact.css';
+import {FaGithub, FaEnvelope, FaLinkedin} from 'react-icons/fa';
+
 
 function Contact() {
   return (
-    <div><Header/></div>
+        <div className="contact">
+            <div className='social'>
+                <FaGithub className='icon' />
+                <FaEnvelope className='icon' />
+                <FaLinkedin className='icon' />
+            </div>    
+           <p>Made with 🖤 by Nidhi Elango</p>
+        </div>
   )
+
 }
 
 export default Contact
