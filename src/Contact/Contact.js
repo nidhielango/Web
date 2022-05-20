@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../Header/Header';
 import './Contact.css';
 import {FaGithub, FaEnvelope, FaLinkedin} from 'react-icons/fa';
 

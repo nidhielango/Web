@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import './Project.css';
-import link from '../Assests/link.png';
+import link from '../Assets/link.png';
 
 function Project() {
   return (
