@@ -1,40 +1,21 @@
-import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './Home/Home';
-import About from './About/About';
-import Project from './Project/Project';
-import Contact from './Contact/Contact';
+import { GlobalStyle } from "./globalStyles";
+import { lazy, Suspense } from "react";
+
+const Home = lazy(() => import("./Sections/Home"));
+const Header = lazy(() => import("./components/Header/index"));
+const ScrollToTop = lazy(() => import("./components/ScrollToTop/index"));
 
 function App() {
   return (
-    <div>
-     <Router>
-    <div className="background"></div>
-    <div className="App">
-      <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-      </Switch>
-      <Switch>
-        <Route path="/about" exact>
-          <About />
-        </Route>
-      </Switch> 
-      <Switch>
-        <Route path="/project" exact>
-          <Project />
-        </Route>
-        </Switch> 
-        <Switch>
-        <Route path="/contact" exact>
-          <Contact />
-        </Route>
-      </Switch>
-    </div>
-    </Router> 
-    </div>
-  );
+    <>
+      <Suspense fallback={null}>
+        <GlobalStyle />
+        <ScrollToTop />
+        <Header />
+        <Home />
+      </Suspense>
+    </>
+  )
 }
 
 export default App;
