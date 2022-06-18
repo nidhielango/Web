@@ -20,9 +20,9 @@
 }
 
 .txt-line p{
-    font-size: 160px;
+    font-size: 150px;
     text-transform: capitalize;
-    letter-spacing: 10px;
+    letter-spacing: -5px;
     font-family: 'Ogg';
     height: 100%;
     line-height: 90%;

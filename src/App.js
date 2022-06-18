@@ -3,14 +3,12 @@ import { lazy, Suspense } from "react";
 
 const Home = lazy(() => import("./Sections/Home"));
 const Header = lazy(() => import("./components/Header/index"));
-const ScrollToTop = lazy(() => import("./components/ScrollToTop/index"));
 
 function App() {
   return (
     <>
       <Suspense fallback={null}>
         <GlobalStyle />
-        <ScrollToTop />
         <Header />
         <Home />
       </Suspense>

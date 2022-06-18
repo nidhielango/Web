@@ -1,6 +1,11 @@
+import "./style.css";
 
 const Contact = () => {
-  return <div>Contact Component</div>;
+  return (
+    <section className="footer">
+
+    </section>
+  );
 };
 
 export default Contact;

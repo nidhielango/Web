@@ -1,14 +1,12 @@
-import HeroSection from "./Hero";
+import Hero from "./Hero";
 import About from "./About";
 import Project from "./Project";
 import Contact from "./Contact";
-import styled from "styled-components";
-
 
 const Home = () => {
   return (
   <>
-    <HeroSection />
+    <Hero />
     <About />
     <Project />
     <Contact />
